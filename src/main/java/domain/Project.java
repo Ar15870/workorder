@@ -5,6 +5,7 @@ import java.io.Serializable;
 public class Project implements Serializable{
     private Long id;
     private String projectName;
+    private String ace;
 
     public Project() {
     }
